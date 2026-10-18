@@ -1,13 +1,13 @@
-package br.com.tabelafipe.tabelafipe.model;
+package br.com.tabelafipe.tabelafipe.principal;
 
+import br.com.tabelafipe.tabelafipe.model.Dados;
+import br.com.tabelafipe.tabelafipe.model.Modelos;
+import br.com.tabelafipe.tabelafipe.model.Veiculos;
 import br.com.tabelafipe.tabelafipe.service.ConsumoApi;
 import br.com.tabelafipe.tabelafipe.service.ConverteDados;
-import org.springframework.boot.Banner;
 
-import javax.swing.*;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Principal {
     private final String ENDERECO = "https://parallelum.com.br/fipe/api/v1/";
